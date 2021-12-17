@@ -1,4 +1,4 @@
-#WHAT IS A CLIQUE?
+# CLIQUE
 A clique is a subgraph of a graph G that is complete.
 
 ## MAXIMAL CLIQUE PROBLEM
