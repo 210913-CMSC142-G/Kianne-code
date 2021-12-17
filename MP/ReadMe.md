@@ -16,3 +16,7 @@ Given a small graph with N nodes and E edges, the task is to find the maximum cl
 >> if (i, j) is not a edge of the graph then </br>
 >>> return failure </br>
 > return success </br>
+
+## REFERENCES
+1. https://www.geeksforgeeks.org/maximal-clique-problem-recursive-solution/
+2. https://www.tutorialspoint.com/design_and_analysis_of_algorithms/design_and_analysis_of_algorithms_max_cliques.htm
