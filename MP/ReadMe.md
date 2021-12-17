@@ -17,5 +17,5 @@ for all pairs (i, j) such that i Є S and j Є S and i ≠ j do </br>
 &ensp;&ensp;&ensp;&ensp; return failure </br>
 return success </br>
 
-## REFERENCES
+## REFERENCE
 1. GeeksforGeeks.(2021). Maximal Clique Problem. https://www.geeksforgeeks.org/maximal-clique-problem-recursive-solution/
