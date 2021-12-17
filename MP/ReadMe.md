@@ -7,14 +7,14 @@ Given a small graph with N nodes and E edges, the task is to find the maximum cl
 #### ALGORITHM
 Algorithm: Max-Clique (G, n, k) </br>
 S := Φ </br>
-&ensp; for i = 1 to k do </br> 
-&ensp; t := choice (1…n) </br>
-&ensp; if t Є S then  </br>
-&ensp;&ensp; return failure </br>
-&ensp; S := S ∪ t  </br>
+&ensp;&ensp; for i = 1 to k do </br> 
+&ensp;&ensp; t := choice (1…n) </br>
+&ensp;&ensp; if t Є S then  </br>
+&ensp;&ensp;&ensp;&ensp; return failure </br>
+&ensp;&ensp; S := S ∪ t  </br>
 for all pairs (i, j) such that i Є S and j Є S and i ≠ j do </br>
-&ensp; if (i, j) is not a edge of the graph then </br>
-&ensp;&ensp; return failure </br>
+&ensp;&ensp; if (i, j) is not a edge of the graph then </br>
+&ensp;&ensp;&ensp;&ensp; return failure </br>
 return success </br>
 
 ## REFERENCES
