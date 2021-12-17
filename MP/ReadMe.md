@@ -9,9 +9,9 @@ Given a small graph with N nodes and E edges, the task is to find the maximum cl
 > S := Φ </br>
 > for i = 1 to k do </br> 
 >> t := choice (1…n) </br>
->>> if t Є S then  </br>
->>>> return failure </br>
->>> S := S ∪ t  </br>
+>> if t Є S then  </br>
+>>> return failure </br>
+>> S := S ∪ t  </br>
 > for all pairs (i, j) such that i Є S and j Є S and i ≠ j do </br>
 >> if (i, j) is not a edge of the graph then </br>
 >>> return failure </br>
